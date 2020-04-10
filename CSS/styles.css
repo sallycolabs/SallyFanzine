@@ -1,0 +1,43 @@
+.oi-cart {
+  color: #e49413; }
+
+.btn-primary {
+  margin-top: 10px;
+  margin-bottom: 0px; }
+
+.jumbotron {
+  background-color: #ffff;
+  padding: 20px; }
+
+.card-alig {
+  padding-top: 0px;
+  padding-right: 1px;
+  padding-left: 0px;
+  padding-bottom: 0px; }
+
+.navbar {
+  padding-top: 30px;
+  padding-right: 1px;
+  padding-left: 1px;
+  padding-bottom: 10px; }
+
+.carousel {
+  padding-top: 20px;
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-bottom: 0px; }
+
+.carousel-caption {
+  margin-top: 200px;
+  margin-bottom: 0px; }
+
+.card-body {
+  text-align: center; }
+
+.media img {
+  max-width: 200px;
+  height: auto; }
+
+.blog .media img {
+  max-width: 200px;
+  height: auto; }

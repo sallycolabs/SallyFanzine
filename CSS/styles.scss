@@ -1,0 +1,37 @@
+$yellow: #e49413;
+$white: #ffff;
+$grey:  #979797;
+
+@mixin margenes($top, $bottom) {
+    margin-top: $top;
+    margin-bottom: $bottom;
+    }
+
+@mixin padd ($top, $right, $left, $botton) {
+    padding-top: $top;
+    padding-right: $right;
+    padding-left: $left;
+    padding-bottom: $botton;
+    }
+
+
+
+.oi-cart{color: $yellow;}
+
+.btn-primary{ @include margenes(10px,0px);}
+.jumbotron{background-color: $white; padding: 20px;}
+
+.card-alig{@include padd(0px,1px,0px,0px);}
+ 
+.navbar{ @include padd(30px,1px,1px,10px); }
+
+
+.carousel{@include padd(20px,0px,0px,0px);}
+
+.carousel-caption{ @include margenes(200px,0px); }
+
+.card-body{text-align: center;}
+
+.media img{ max-width: 200px; height: auto;}
+
+.blog .media img{ max-width: 200px; height: auto;}
