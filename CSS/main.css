@@ -1,15 +1,101 @@
-.btn-primary{margin-top: 10px;}
-.jumbotron{background-color: #fff; padding: 20px;}
 
- .oi-cart{color: rgb(223, 144, 24);}
-.navbar {padding: 20px 1px 1px 10px;}
+.oi-cart {
+  color: #e49413; }
 
-.carousel{padding:20px 0;}
+.btn-primary {
+  margin-top: 10px;
+  margin-bottom: 0px; }
 
-.carousel-caption{top: 200px}
-.card-alig{padding-right: 1px;}
+.jumbotron {
+  background-color:#f0f0f0;
+  padding-top: 10px; 
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+  margin-right: 10px;}
 
-.card-body{text-align: center;}
+.card-alig {
+  padding-top: 0px;
+  padding-right: 1px;
+  padding-left: 0px;
+  padding-bottom: 0px; }
 
-.media img{ max-width: 200px; height: auto;}
+.navbar {
+  padding-top: 30px;
+  padding-right: 1px;
+  padding-left: 1px;
+  padding-bottom: 10px; }
 
+.carousel {
+  padding-top: 20px;
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-bottom: 0px; }
+
+.carousel-control-prev{
+    width: 35px;
+    margin-right: 5px;}
+
+
+.carousel-control-next{
+width: 35px;
+margin-left: 5px;}
+
+#label{
+  margin-left: 670px;
+  margin-bottom: 20px;
+  margin-top: 70px;
+
+ padding-top: 2px;
+ padding-bottom:2px;
+ padding-left: 2px;
+ padding-right: 2px;
+ 
+ animation-name: example;
+ animation-duration: 4s;
+ animation-iteration-count: 2;
+}
+
+@keyframes example {
+  from {background-color: #ffd2f4;}
+  to {background-color: #e1eafa;}
+}
+
+#sallycolab{
+  font-size: 25px;
+ 
+  margin-right: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 1px;
+}
+button.close{
+  font-size: 3rem;
+}
+
+
+#alertador{
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 45px;
+  margin-top: 30px;
+  border-radius: 15px;
+  border-left: 30px;
+  border-right: 10px;
+ }
+
+.navbar-brand {
+  font-size: 20px;
+  color: #000;
+  font-weight: bold;
+}
+
+#testimonial {
+  background: #f1f1f1;
+  padding: 50px 0 30px 0;
+  text-align:center;
+  margin-top: 40px;
+}
+
+footer {
+  background: url(../img/smartphones.png);
+}
