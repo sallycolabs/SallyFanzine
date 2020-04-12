@@ -23,7 +23,7 @@ width: 35px;
 margin-left: 5px;}
 
 #label{
-  margin-rigt: 1px;
+  margin-right: 1px;
   margin-bottom: 20px;
   margin-top: 70px;
 
@@ -41,6 +41,11 @@ margin-left: 5px;}
   from {background-color: #ffd2f4;}
   to {background-color: #e1eafa;}
 }
+.img {
+  margin-top: 30px;
+  padding-left: 30px;
+  margin-bottom: 50px;
+}
 
 #sallycolab{
   font-size: 25px;
@@ -54,6 +59,12 @@ button.close{
   font-size: 3rem;
 }
 
+.alert{
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  
+}
 
 #alertador{
   margin-left: 50px;
